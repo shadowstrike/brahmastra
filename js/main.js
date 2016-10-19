@@ -36,25 +36,12 @@ $('.menu-item').on( 'click', function() {
 		$(project).modal({
 		  remote: projectUrl + '#project'
 		})
-		console.log(projectUrl);
+		console.log(projectUrl + project);
+
 		return false;
 	  
 	});
 	
-	//Blog post Modal
-	$('.open-post').on('click', function(){     
-		var postUrl = $(this).attr("href");
-		console.log(postUrl);
-
-		var post = '<div class="modal" id="post-modal"><div class="inline-menu-container"><a id="modal-close" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></a></div><div class="modal-dialog"><div class="modal-content"></div></div></div>';
-
-		$(post).modal({
-		  remote: postUrl + ' #post'
-		})
-		
-		return false;
-	  
-	});
 	
 	//On Click Open Menu Items
 	$('.menu-item').on( 'click', function() {
