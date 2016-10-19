@@ -36,7 +36,7 @@ $('.menu-item').on( 'click', function() {
 		$(project).modal({
 		  remote: projectUrl + '#project'
 		})
-		
+		console.log(projectUrl);
 		return false;
 	  
 	});
