@@ -1,4 +1,3 @@
-  jQuery(document).ready(function($) {
  
         $('#myCarousel').carousel({
                 interval: 5000
@@ -20,4 +19,3 @@
                  var id = $('.item.active').data('slide-number');
                 $('#carousel-text').html($('#slide-content-'+id).html());
         });
-});
