@@ -8,6 +8,7 @@
        $('[id^=carousel-selector-]').click( function(){
             var id = this.id.substr(this.id.lastIndexOf("-") + 1);
             var id = parseInt(id);
+            console.log(id+1 + ' is selected')
             $('#myCarousel').carousel(id);
         });
  
