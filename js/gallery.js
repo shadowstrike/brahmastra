@@ -1,6 +1,6 @@
  
         $('#myCarousel').carousel({
-                interval: 5000
+                interval: 2000
         });
  
         //Handles the carousel thumbnails
