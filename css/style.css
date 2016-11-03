@@ -1759,7 +1759,11 @@ ul.info-list li strong {
     left: 0;
   }
 }
-
+.csutomshadow{
+    -webkit-box-shadow: 1px -2px 48px -8px rgba(0,0,0,0.73);
+-moz-box-shadow: 1px -2px 48px -8px rgba(0,0,0,0.73);
+box-shadow: 1px -2px 48px -8px rgba(0,0,0,0.73);
+}
 @media (max-width:568px) {
 
   .home {
