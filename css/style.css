@@ -248,7 +248,7 @@ strong, small {
     height: 100%;
     position: absolute;
     overflow: hidden;
-    //background: url(../images/bg.jpg) #333 40% 40%;
+    background: url(../images/bg.jpg) #333 40% 40%;
     background-size: cover;
 }
 
@@ -1620,7 +1620,7 @@ ul.info-list li strong {
 
 @media (max-width:800px) and (max-height:600px) {
   .home {
-    //background: url(../images/bg.jpg) #333 30% 30%;
+    background: url(../images/bg.jpg) #333 30% 30%;
     overflow-y: scroll;
   }
 
@@ -1692,7 +1692,7 @@ ul.info-list li strong {
 @media (max-width:768px) {
 
   .home {
-    //background: url(../images/bg.jpg) #333 30% 30%;
+    background: url(../images/bg.jpg) #333 30% 30%;
   }
 
   .name-block,
