@@ -1848,7 +1848,9 @@ margin-top:20px;
 .carousel-caption p{
     margin-bottom: 10px;margin-top:10px;
 }
-
+.item > img{
+    margin: auto;
+}
 
 @media screen and (min-width: 768px){
 .carousel-caption {
