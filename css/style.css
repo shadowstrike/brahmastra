@@ -1846,7 +1846,7 @@ margin-top:20px;
     background: rgba(0,0,0,0.5) !important;
 }
 .carousel-caption p{
-    margin-bottom: 10px;margin-top:10px;
+    margin-bottom: 10px;margin-top:10px;font-weight: bold;text-shadow: none !important;
 }
 .item > img{
     margin: auto;
