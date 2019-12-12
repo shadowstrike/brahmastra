@@ -1857,7 +1857,10 @@ margin-top:20px;
 .highlighter{
     color:#F34452; text-decoration: dotted underline;
 }
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
 
+    height: 590px;
+}
 @media screen and (min-width: 768px){
 .carousel-caption {
     right: 0;
