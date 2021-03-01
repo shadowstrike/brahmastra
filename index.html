@@ -354,7 +354,7 @@
                       </div>
                     </a><img src=images/portfolio/HM.png alt=ColorfulTees></div>
                   <div class="apps project web graphic video">
-                    <a href=project-1-protected.html class=open-project>
+                    <a href=project-1.html class=open-project>
                       <div class=project-overlay>
                         <div class=vcenter>
                           <div class=centrize>
@@ -384,6 +384,16 @@
                         </div>
                       </div>
                     </a><img src=images/portfolio/sourcebits.png alt=ColorfulTees></div>
+
+                    <form method="POST">
+  <?php if( $_SERVER['REQUEST_METHOD'] == 'POST' ) { ?>
+    Invalid password
+  <?php } ?>
+  <p>Enter password for access:</p>
+  <input type="password" name="password">
+  <button type="submit">Submit</button>
+</form>
+
                 </div>
               </div>
             </div>
